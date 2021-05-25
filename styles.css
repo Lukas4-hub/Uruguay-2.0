@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:wght@100;300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+   background-image: url(img/pai1.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+/* NAVBAR /////////////////////////////*/
+.navbar{  
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    align-items: center;
+}
+
+.navbar .logo {
+    width: 11.875em;
+    height: 4.375em;
+    grid-column: 2 / 2;
+}
+
+.navbar .menu{
+    grid-column: 5 / 9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .menu li{
+    list-style: none;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0;
+}
+
+.navbar .menu-bar{
+    display: none;
+    color: #fff;
+}
+
+/* /////////////////////////////*/
+#contenido{
+    margin-top: 50px;
+    display:flex;
+    background-color: transparent;
+    color: black;
+    
+}
+
+
+ #contenido form {
+     width: 50%;
+     background-color: #ffffff80;
+     margin: 0 auto;
+     text-align: center;
+    border: 1px solid #1a1a1a;
+    border-radius: 25px;
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 2px 3px 18px 9px rgba(0,0,0,0); box-shadow:  2px 5px 16px 0px #0B325E, 2px 3px 18px 9px rgba(0,0,0,0);
+
+ }
+ input {
+     padding: 10px 72px;
+     border-radius: 25px;
+     border: none;
+     margin: 20px 15px;
+     outline: none;
+ }
+.mail {
+    width: 70%;
+}
+ form h1 {
+     margin: 20px 0;
+ }
+  
+ .mensaje {
+     width: 70%;
+     height: 300px;
+     padding: -40px 0;
+ }
+.boton {
+    background-color: #3333FF;
+    color:#fff;
+}
+.boton:hover {
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-weight:bold;
+}
+
+
+/* ///////////////////////////////// */
+
+/* LUGARES PARA IR*/
+.contenedor{
+    
+    width: 80%;
+    height: auto;
+    background-color: #ffffff85;
+    margin-top: 50px;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 16px;
+
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 2px 3px 18px 9px rgba(0,0,0,0); box-shadow:  2px 5px 16px 0px #0B325E, 2px 3px 18px 9px rgba(0,0,0,0); 
+color: rgba(0,0,0,.9);  
+}
+
+.contenedor img{
+    width: 40%;
+    height: auto;
+    background-size: cover;
+    transition: all .2s;
+}
+
+.contenedor p{
+    padding: 15px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ///////////////////////////////// */
+
+
