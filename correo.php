@@ -5,14 +5,14 @@
                 $apellido= $_POST['apellido'];
                 $email= $_POST['mail2'];
                 $mensaje= $_POST['mensaje'];
-                $to= "lbeltrame444@gmail.com";
-                $subject= "Prueba correo";
+                $to= 'lbeltrame444@gmail.com';
+                $subject= 'Prueba correo';
 
 
 
-                $message = "De";
-                $message.= "Correo";
-                $message.= "Mensaje";
+                $message = 'De: ' .$nombre.'\n';
+                $message.= 'Correo: '.$email. '\n';
+                $message.= 'Mensaje: ' .$mensaje. '\n';
 
                 $mail=mail ($to,$subject,$message);
                 if ($mail) {
