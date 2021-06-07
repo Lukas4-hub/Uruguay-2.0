@@ -39,14 +39,20 @@
     <h1>Contactanos</h1>
     
     
-    <input type="text" name="nombre" value="" placeholder="Nombre">
+    <input type="text" name="nombre" value="<?php  if (isset($_POST['nombre'])) {
+        echo $_POST['nombre'];
+    }?>" placeholder="Nombre">
    
-    <input type="text" name="apellido" value="" placeholder="Apellido">
+    <input type="text" name="apellido" value="<?php  if (isset($_POST['apellido'])) {
+        echo $_POST['apellido'];
+    }?>" placeholder="Apellido">
     <br>
          
      
  
-    <input class="mail" type="email" name=mail2 value="" placeholder="Email">
+    <input class="mail" type="email" name=mail2 value="<?php  if (isset($_POST['mail2'])) {
+        echo $_POST['mail2'];
+    }?>" placeholder="Email">
     <br>
     <input type="text" class="mensaje" name="mensaje" placeholder="Escriba su mensaje aqui"><br>
     <input type="submit" class="boton" name="bot">
