@@ -137,3 +137,12 @@ color: rgba(0,0,0,.9);
 /* ///////////////////////////////// */
 
 
+#principal h2 {
+    color: #fff;
+    background-color: #1a1a1a;
+    font-size: 31px;
+}
+.col-md-6{
+ 
+    padding: 0;
+}
